@@ -1,3 +1,18 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #2980b9;
+    --accent1-color: #e67e22;
+    --accent2-color: #ecf0f1;
+    --heading-font: "Georgia", serif;
+    --body-font: "Helvetica", "Arial", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .hero {
     position: relative;
     display: block;
@@ -46,4 +61,8 @@ h1 {
     color: var(--primary-color);
     line-height: 1.5;
     margin: 0;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
