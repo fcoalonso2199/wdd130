@@ -43,7 +43,6 @@ h3 {
     left: 0;
     width: 100%;
     background-color: rgba(236, 240, 241, 0.7);
-    background-color: var(--accent2-color);
     opacity: 0.8;
     color: var(--primary-color);
     padding: 15px;
