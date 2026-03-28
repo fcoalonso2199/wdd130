@@ -28,6 +28,12 @@ main {
     max-width: 840px;
 }
 
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 img {
     width: 150px;
     height: auto;
