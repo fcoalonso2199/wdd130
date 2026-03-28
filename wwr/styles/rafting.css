@@ -87,7 +87,6 @@ header {
     justify-content: space-around;
 }
 
-/* 1. Sección Historia: Diseño de 3 columnas */
 .history-container {
     display: grid;
     grid-template-columns: 1fr 300px 1fr;
