@@ -113,3 +113,21 @@ footer {
 .indent {
     padding-left: 2rem;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+main {
+    grid-column: 2 / 3;
+    margin: 1rem;
+}
