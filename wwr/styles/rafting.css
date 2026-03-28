@@ -91,7 +91,6 @@ header {
 .history-container {
     display: grid;
     grid-template-columns: 1fr 300px 1fr;
-    /* Texto - Imagen - Texto */
     gap: 20px;
     align-items: center;
     padding: 20px;
