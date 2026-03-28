@@ -28,10 +28,18 @@ nav a {
 
 h1 {
     color: darkblue;
+    border-bottom: 1px solid steelblue;
 }
 
 main {
     max-width: 840px;
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 header,
