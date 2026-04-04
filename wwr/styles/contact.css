@@ -1,0 +1,63 @@
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item input,
+.form-item textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Para que los botones de opción (radio) salgan alineados */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.checkbox {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item input,
+.form-item textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Para que los botones de opción (radio) salgan alineados */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.checkbox {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
