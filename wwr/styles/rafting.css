@@ -160,6 +160,10 @@ footer {
     border-radius: 8px;
 }
 
+iframe {
+    border: none;
+}
+
 .form-container {
     background-color: var(--accent2-color);
     padding: 25px;
