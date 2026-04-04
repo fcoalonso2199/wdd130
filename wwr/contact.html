@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Whitewater rafting experiences and history.">
+    <meta name="description" content="Contact White Water Rafting for inquiries and reservations.">
     <meta name="author" content="Francisco Javier Alonso G">
-    <title>About Us | White Water Rafting</title>
+    <title>Contact Us | White Water Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -24,63 +24,83 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img src="images/rafting10_1024.jpg" alt="Rafting action">
-            <h1>White Water Rafting</h1>
-            <article>
-                <img src="images/rafting59_600.jpg" alt="Happy Customers">
-                <p>
-                    Our mission is to provide unforgettable experiences on the water, promoting
-                    respect for nature and
-                    extreme safety with every stroke. We create connections between people and the
-                    environment through
-                    guided adventures led by trained professionals, ensuring every journey is
-                    exciting, safe, and
-                    memorable for all participants always.
-                </p>
-            </article>
-        </div>
-
-        <section class="history-section">
-            <h2 class="section-title">History</h2>
-            <div class="history-container">
-                <p>Founded in the heart of the mountains of Coahuila, Mexico, Rafting Adventure Co.
-                    began as a dream of three friends passionate about rivers.</p>
-                <img src="images/rafting.jpg" alt="Historical rafting photo">
-                <p>Since 1995, we have guided thousands of adventurers through some of the most
-                    challenging rapids in the world with total safety.</p>
-            </div>
+        <section class="contact-header">
+            <h1>Contact Us</h1>
+            <p><strong>Address:</strong> 123 Main River Street, Kolob, California</p>
+            <p><strong>Phone:</strong> +1 999 999 9999</p>
+            <p><strong>Email:</strong> info@whitewater.com</p>
         </section>
 
-        <section class="adventure-section">
-            <h2 class="section-title">Adventure Awaits You!</h2>
-            <div class="adventure-grid">
+        <div class="contact-grid">
+            <section class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15000!2d-113.0!3d37.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1234567890"
+                  width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </section>
+
+            <section class="form-container">
+                <form action="#" method="post">
+                    <div class="form-item">
+                        <label for="user_name">Name:</label>
+                        <input type="text" id="user_name" name="user_name"
+                          placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label for="user_email">Email:</label>
+                        <input type="email" id="user_email" name="user_email"
+                          placeholder="Enter your email" required>
+                    </div>
+
+                    <fieldset>
+                        <legend>Message Purpose:</legend>
+                        <label><input type="radio" name="purpose" value="general" checked> General
+                            Inquiry</label><br>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation
+                            Question</label><br>
+                        <label><input type="radio" name="purpose" value="suggestion"> Website
+                            Suggestion</label>
+                    </fieldset>
+
+                    <div class="form-item">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5"
+                          placeholder="Type here"></textarea>
+                    </div>
+
+                    <div class="form-item checkbox">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please Subscribe me to the monthly
+                            newsletter</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Get in Touch!</button>
+                </form>
+            </section>
+        </div>
+
+        <section class="employee-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
                 <figure>
-                    <img src="images/monclova.jpg" alt="Monclova,Coahuila">
-                    <figcaption>Monclova</figcaption>
+                    <img src="images/employee1.jpg" alt="CEO Profile">
+                    <figcaption><strong>John Doe</strong><br>Founder & CEO</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting2.jpg" alt="Ramos Arizpe">
-                    <figcaption>Ramos Arizpe</figcaption>
+                    <img src="images/employee2.jpg" alt="Head Guide Profile">
+                    <figcaption><strong>Jane Smith</strong><br>Head River Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/rafting6.jpg" alt="Nueva Rosita">
-                    <figcaption>Nueva Rosita</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting3.jpg" alt="Saltillo">
-                    <figcaption>Saltillo</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting4.jpg" alt="Piedras Negras">
-                    <figcaption>Piedras Negras</figcaption>
+                    <img src="images/employee3.jpg" alt="Safety Manager Profile">
+                    <figcaption><strong>Robert Brown</strong><br>Safety Manager</figcaption>
                 </figure>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Rafting Adventures Co. - Francisco Javier Alonso G.</p>
+        <p>© 2026 Rafting Adventures Co. - Francisco Javier Alonso G.</p>
         <nav class="socialmedia">
             <a href="https://facebook.com" target="_blank"><img src="images/facebooklogo.svg"
                   alt="Facebook"></a>
@@ -88,10 +108,6 @@
                   alt="Instagram"></a>
             <a href="https://tiktok.com" target="_blank"><img src="images/tiktoklogo.svg"
                   alt="TikTok"></a>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5335.258320838215!2d-99.14786520253011!3d19.53997730856185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1775271888551!5m2!1ses-419!2smx"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
         </nav>
     </footer>
 </body>
