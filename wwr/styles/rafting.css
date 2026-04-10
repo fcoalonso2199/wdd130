@@ -354,3 +354,123 @@ th {
 tr:hover {
     background-color: var(--accent2-color);
 }
+
+#Index .hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(44, 62, 80, 0.8);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.hero-msg h1 {
+    color: var(--accent2-color);
+    margin-bottom: 15px;
+}
+
+.cta-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: var(--accent1-color);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-link:hover {
+    background-color: var(--secondary-color);
+}
+
+.newsletter-section {
+    background-color: var(--header-bg);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.newsletter-btn {
+    align-self: flex-end;
+    padding: 10px 25px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-grid {
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.grid-item.reverse {
+    direction: rtl;
+}
+
+.grid-item.reverse .grid-text {
+    direction: ltr;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .grid-item {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-msg {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        align-items: center;
+    }
+}
