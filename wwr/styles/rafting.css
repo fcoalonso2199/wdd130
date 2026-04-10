@@ -264,6 +264,11 @@ fieldset legend {
     }
 }
 
+iframe {
+    width: 100%;
+    border: none;
+}
+
 #Trips .cta-section {
     text-align: center;
     background-color: var(--accent2-color);
